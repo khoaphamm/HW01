@@ -22,10 +22,10 @@ int main() {
     
     int x = 10;
 
-    printf("%d\n", A(x));
-    printf("%d\n", B(x));
-    printf("%d\n", C(x));
-    printf("%d\n", D(x));
+    printf("%d\n", A(x)); // 170
+    printf("%d\n", B(x)); // -70
+    printf("%d\n", C(x)); // 600
+    printf("%d\n", D(x)); // -1120
 
     return 0;
 }

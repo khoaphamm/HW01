@@ -3,8 +3,7 @@
 typedef unsigned ui;
 
 int lower_one_mask(int n){
-    if(n == 32) return 0xFFFFFFFF;
-    return (1 << n) - 1;
+    return (((1 << (n-1)) - 1) << 1) + 1;
 }
 
 int main() {
